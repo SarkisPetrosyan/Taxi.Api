@@ -39,7 +39,4 @@ public class AbstractEntity implements Serializable {
     @LastModifiedDate
     @Column(name = "LastModifiedDate")
     private Date lastModifiedDate;
-
-    @Column(name = "Hidden",columnDefinition = "bit DEFAULT 0", nullable = false)
-    private Boolean hidden;
 }
